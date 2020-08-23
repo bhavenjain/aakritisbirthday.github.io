@@ -10,8 +10,8 @@ body {
 	color: #262626;
 	position: absolute;
 	letter-spacing: 2px;
-	font-size: 2em;
-	font-weight: 1em;
+	font-size: 2vw;
+	font-weight: 1vw;
 	top: 20%;
 	right: 08%;
 	margin-left: 69%;
@@ -22,13 +22,13 @@ body {
 
 .line {
 	letter-spacing: 3px;
-	font-size: 2.4em;
-	font-weight: 1.2em;
+	font-size: 3vw;
+	font-weight: 1.2vw;
 	color: #f0f3f4;
 	position: relative;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	left: 09%;
-	top: 30%;
+	left: 16%;
+	top: 25%;
 	opacity: 0.9;
 }
 
