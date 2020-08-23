@@ -98,3 +98,24 @@
 		transform: translate3d(-50%, 0, 0);
 	}
 }
+
+@media only screen and (max-width: 481px){
+
+	.wrapper {
+		top: 55%;
+		left: 50%;
+		width: 160px;
+	}	
+	.nose {
+		top: 35%;
+		left: 50%;
+		width: 14vw;
+		height: 12vh;	
+	}
+	.eye {
+		width: 20vw;
+		height: 5vh;
+	}
+	
+	
+}
