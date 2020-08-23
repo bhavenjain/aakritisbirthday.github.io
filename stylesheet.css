@@ -6,19 +6,18 @@ body {
 	transition: .5s;
 }
 
-.ml12 {
-	font-weight: 400;
-	font-size: 2.5em;
-	text-transform: uppercase;
-	letter-spacing: 0.5em;
+.quote {
+	color: #262626;
 	position: absolute;
-	top: 50%;
-	left: 67%;
-}
-
-.ml12 .letter {
-	display: inline-block;
-	line-height: 1em;
+	letter-spacing: 2px;
+	font-size: 2em;
+	font-weight: 1em;
+	top: 20%;
+	right: 08%;
+	margin-left: 69%;
+	text-align: center;
+	margin-right: 2%;
+	opacity: 0.8;
 }
 
 .parallax1 {
