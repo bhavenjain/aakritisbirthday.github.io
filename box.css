@@ -25,7 +25,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	animation: skew 10s linear 0s infinite;
+	animation: skew 13s linear 0s infinite;
 }
 .face1 {
 	transform: translateZ(-200px) translateX(300px) translateY(0px);
