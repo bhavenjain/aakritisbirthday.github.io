@@ -20,6 +20,18 @@ body {
 	opacity: 0.8;
 }
 
+.line {
+	letter-spacing: 3px;
+	font-size: 2.4em;
+	font-weight: 1.2em;
+	color: #f0f3f4;
+	position: relative;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	left: 09%;
+	top: 30%;
+	opacity: 0.9;
+}
+
 .parallax1 {
 	background-image: url('media/try1.jpg');
 	height: 100%;
