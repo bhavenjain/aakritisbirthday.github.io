@@ -22,12 +22,12 @@ body {
 
 .line {
 	letter-spacing: 3px;
-	font-size: 3vw;
+	font-size: 2.4vw;
 	font-weight: 1.2vw;
 	color: #f0f3f4;
 	position: relative;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	left: 16%;
+	left: 11%;
 	top: 25%;
 	opacity: 0.9;
 }
