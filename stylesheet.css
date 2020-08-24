@@ -20,6 +20,19 @@ body {
 	opacity: 0.8;
 }
 
+.cringyPadding {
+	height: 200px;
+	width: 1000px;
+	float: center;
+	padding: 30px;
+	background: #262626;
+	color: #eee;
+	opacity: 0.6;
+	top: 2000px;
+	left: 15%;
+	position: absolute;
+}
+
 .line {
 	letter-spacing: 3px;
 	font-size: 2.4vw;
@@ -100,6 +113,20 @@ body {
 	top: 0;
 }
 
+#myVideo {
+	width: 100%;
+	height: 110%;
+	background-attachment: fixed;
+	background-position: absolute;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 0%;
+	margin-right: 0%;
+	left: 0%;
+	right: 0;
+	display: block;
+}
+
 @media screen and (max-width: 481px) {
 	.parallax1 {
 		background-image: url('media/try1.jpg');
@@ -129,5 +156,15 @@ body {
 	.btstheme {
 		background-image: url('media/band.jpg');
 		background-size: cover;
+	}
+
+	.cringyPadding {
+		height: 20px;
+		width: 200px;
+		float: center;
+		opacity: 0.8;
+		top: 1800px;
+		left: 20%;
+		position: absolute;
 	}
 }
