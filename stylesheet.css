@@ -34,6 +34,7 @@ body {
 
 .parallax1 {
 	background-image: url('media/try1.jpg');
+	-webkit-background-size: contain;
 	height: 100%;
 	overflow: hidden;
 	bottom: 100%;
@@ -50,6 +51,7 @@ body {
 
 .paraForEyes {
 	background-image: url('media/1.jpg');
+	background-size: cover;
 	height: 100%;
 	overflow: hidden;
 	bottom: 100%;
@@ -64,6 +66,7 @@ body {
 
 .btstheme {
 	background-image: url('media/band.jpg');
+	background-size: contain;
 	height: 100%;
 	overflow: hidden;
 	bottom: 100%;
@@ -99,37 +102,11 @@ body {
 	top: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 481px){
-
+@media screen and (max-width: 481px) {
 	.parallax1 {
 		background-image: url('media/try1.jpg');
 		height: 100%;
 		width: 100%;
-	
-
 	}
 	.quote {
 		font-size: 20px;
@@ -150,5 +127,9 @@ body {
 		top: 35%;
 		opacity: 1;
 	}
-	
+
+	.btstheme {
+		background-image: url('media/band.jpg');
+		background-size: cover;
+	}
 }
