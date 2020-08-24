@@ -28,8 +28,8 @@ body {
 	background: #262626;
 	color: #eee;
 	opacity: 0.6;
-	top: 2000px;
-	left: 15%;
+	top: 2810px;
+	left: 13%;
 	position: absolute;
 }
 
@@ -61,7 +61,7 @@ body {
 }
 
 .paraForEyes {
-	background-image: url('media/1.jpg');
+	background-image: url('media/2.jpg');
 	background-size: cover;
 	height: 870px;
 	overflow: hidden;
@@ -189,6 +189,5 @@ body {
 		position: absolute;
 		float: center;
 		opacity: 1;
-
 	}
 }
