@@ -35,24 +35,22 @@ body {
 .parallax1 {
 	background-image: url('media/try1.jpg');
 	-webkit-background-size: contain;
-	height: 100%;
+	height: 870px;
 	overflow: hidden;
 	bottom: 100%;
 	width: 60%;
-	object-fit: none;
 	padding: 0px;
 	background-attachment: fixed;
 	background-position: absolute;
 	background-repeat: no-repeat;
 	background-size: cover;
 	overflow: hidden;
-	top: 0;
 }
 
 .paraForEyes {
 	background-image: url('media/1.jpg');
 	background-size: cover;
-	height: 100%;
+	height: 870px;
 	overflow: hidden;
 	bottom: 100%;
 	width: 100%;
@@ -67,7 +65,7 @@ body {
 .btstheme {
 	background-image: url('media/band.jpg');
 	background-size: contain;
-	height: 100%;
+	height: 860px;
 	overflow: hidden;
 	bottom: 100%;
 	width: 100%;
@@ -90,7 +88,7 @@ body {
 
 .parallax {
 	background: #262626;
-	height: 100%;
+	height: 860px;
 	overflow: hidden;
 	bottom: 0;
 	width: 100%;
