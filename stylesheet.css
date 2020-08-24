@@ -1,13 +1,13 @@
 body {
 	padding: 0;
 	margin: 0;
-	background: #eee;
+	background: #262626;
+	color: #eee;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	transition: .5s;
 }
 
 .quote {
-	color: #262626;
 	position: absolute;
 	letter-spacing: 2px;
 	font-size: 2vw;
@@ -17,7 +17,7 @@ body {
 	margin-left: 69%;
 	text-align: center;
 	margin-right: 2%;
-	opacity: 0.8;
+	opacity: 0.7;
 }
 
 .cringyPadding {
@@ -41,7 +41,7 @@ body {
 	position: relative;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	left: 23%;
-	top: 25%;
+	top: 30%;
 	opacity: 0.9;
 }
 
@@ -73,6 +73,19 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	top: 0;
+}
+
+.card {
+	height: 870px;
+	overflow: hidden;
+	width: 0100%;
+	padding: 0px;
+	border: none;
+	background-attachment: fixed;
+	background-position: absolute;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
 }
 
 .btstheme {
