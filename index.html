@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="stylesheet" type="text/css" href="box.css">
     <link rel="stylesheet" type="text/css" href="text.css">
+    <link rel="stylesheet" type="text/css" href="familyCard.css">
     <link rel="stylesheet" type="text/css" href="hover.css">
     <link rel="stylesheet" type="text/css" href="cssEyesAnimation.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
@@ -17,7 +18,7 @@
         
     </style>
 </head>
-<body>
+<body onkeydown="keyFunction(event)"> 
 
    
     <div class="parallax1" style="overflow: hidden;">
@@ -44,20 +45,157 @@
     </div>
 
 
-    <div class="image"> 
-        <div class="text">
-            <h2 style="letter-spacing: 3px; font-size: 40px;">FAMILY</h2>
-            <p>
-                    <br>
-                    These automated systems can be used to identify or check the identity of individuals in just a few seconds based on
-                    their facial features: spacing of the eyes, bridge of the nose, the contour of the lips, ears, chin, etc.
-                    They can even do this in the middle of a crowd and within dynamic and unstable environments. Proof of this can be seen
-                    in the performance achieved by Thales' Live Face Identification System (LFIS), an advanced solution resulting from our
-                    long-standing expertise in biometrics.
-            </p>
+    <div class="familyQuote">
+        <div class="image"> 
+            <div class="text">
+                <h2 style="letter-spacing: 3px; font-size: 40px;">FAMILY</h2>
+                <p>
+                        <br>
+                        These automated systems can be used to identify or check the identity of individuals in just a few seconds based on
+                        their facial features: spacing of the eyes, bridge of the nose, the contour of the lips, ears, chin, etc.
+                        They can even do this in the middle of a crowd and within dynamic and unstable environments. Proof of this can be seen
+                        in the performance achieved by Thales' Live Face Identification System (LFIS), an advanced solution resulting from our
+                        long-standing expertise in biometrics.
+                </p>
+            </div>
+        <div class="box"></div>
         </div>
-    <div class="box"></div>
+        
     </div>
+
+
+
+
+
+
+
+
+
+            <!-- INDIVIDUAL FAMILY CARD -->
+
+    
+    <div class="familyMsg">
+        <h1 class="familyRight">"SP LOVES AM, HOWEVER AM LOVES AM"</h1>
+        <div class="container1">
+            <!-- title -->
+
+            <!-- Card Box 1 -->
+            <div id="cardBox_1">
+                <div class="card" onclick="transFunction()">
+                    <div class="front word1_front">Array fill()</div>
+                </div>
+    
+                <div class="card" onclick="transFunction()">
+                    <div class="back word1_back">
+                        The fill() method serves to fill the array
+                        with the specified variables. it takes 3
+                        parameters. They are value, start and end.
+                        Start and end values ​​can be given on request.
+                        But it is imperative to enter value.
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Card Box 2 -->
+            <div id="cardBox_2">
+                <div class="card" onclick="transFunction()">
+                    <div class="front word1_front">Array pop()</div>
+                </div>
+    
+                <div class="card" onclick="transFunction()">
+                    <div class="back word1_back">
+                        The pop () method removes the last element of an array.
+                        And define a new array. So this method changes the
+                        sequence (length and elements).
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Card Box 3 -->
+            <div id="cardBox_3">
+                <div class="card" onclick="transFunction()">
+                    <div class="front word1_front">Array push()</div>
+                </div>
+    
+                <div class="card" onclick="transFunction()">
+                    <div class="back word1_back">
+                        The push () method adds one or more elements to the end
+                        of an array. And it returns its new length. This changes
+                        the number and length of elements of the array.
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Card Box 4 -->
+            <div id="cardBox_4">
+                <div class="card" onclick="transFunction()">
+                    <div class="front word1_front">Array sort()</div>
+                </div>
+    
+                <div class="card" onclick="transFunction()">
+                    <div class="back word1_back">
+                        The sort () method sorts the items in an array.
+                        This order (if we do not specify a function) is
+                        in the form of increasing order.
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Card Box 5 -->
+            <div id="cardBox_5">
+                <div class="card" onclick="transFunction()">
+                    <div class="front word1_front">Array slice()</div>
+                </div>
+    
+                <div class="card" onclick="transFunction()">
+                    <div class="back word1_back">
+                        The Slice() method copies the desired portion of a directory.
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Card Box 6 -->
+            <div id="cardBox_6">
+                <div class="card" onclick="transFunction()">
+                    <div class="front word1_front">Array every()</div>
+                </div>
+    
+                <div class="card" onclick="transFunction()">
+                    <div class="back word1_back">
+                        “Every” function checks whether all the elements of
+                        the array satisfy the given condition or not that is
+                        provided by a function passed to it as the argument.
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Card Box 7 -->
+            <div id="cardBox_7">
+                <div class="card" onclick="transFunction()">
+                    <div class="front word1_front">
+                        Array map()
+                    </div>
+                </div>
+    
+                <div class="card" onclick="transFunction()">
+                    <div class="back word1_back">
+                        The Map () method scans through each element 
+                        of the array. It returns a new array with the elements 
+                        it scans. The map() method calls the provided function 
+                        once for each element in an array, in order.
+                    </div>
+                </div>
+            </div>
+    
+    
+            <i id="back_arrow" onclick="backFunction()" class="fas fa-chevron-circle-left"></i>
+            <i id="next_arrow" onclick="nextFunction()" class="fas fa-chevron-circle-right"></i>
+        </div>
+    </div>
+        
+
+
+
 
 
 
@@ -66,12 +204,10 @@
             <source src="media/21.mp4" type="video/mp4">
             Your browser does not support HTML5 video.
         </video>
-        <div class="cringyPadding"></div>
-        <h1 class="greenday">"Honestly, this music is really good"</h1>
     </div>
 
 
-    <div class="card"><iframe src="/card.html" class="card"></iframe>></div>
+    <div class="card1"><iframe src="https://sanskar1123.github.io/iframe.github.io/" class="card1"></iframe>></div>
     <div class="btstheme">
         <h1 class="btsthemetext">Honestly, your music choice is too cringy</h1>
     </div>
@@ -91,6 +227,7 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script src="text.js"></script>
+    <script src="familyCard.js"></script>
     <script>
         var audio = new Audio("https://raw.githubusercontent.com/bhavenjain/aakritisbirthday.github.io/master/media/Longview.mp3")
         audio.play()
