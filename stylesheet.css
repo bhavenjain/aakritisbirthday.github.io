@@ -48,7 +48,7 @@ body {
 	color: #eee;
 	position: relative;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	left: 35%;
+	left: 32%;
 	top: 27%;
 	opacity: 0.9;
 }
@@ -69,7 +69,7 @@ body {
 }
 
 .paraForEyes {
-	background-image: url('media/band.jpg');
+	background-image: url('media/col.jpeg');
 	background-size: cover;
 	height: 870px;
 	overflow: hidden;
@@ -137,6 +137,42 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	top: 0;
+}
+
+.photos {
+	background-image: url('media/qw.jpeg');
+	background-size: contain;
+	height: 860px;
+	overflow: hidden;
+	bottom: 100%;
+	width: 100%;
+	padding: 0px;
+	background-attachment: fixed;
+	background-position: absolute;
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 0;
+}
+
+.cri1 {
+	position: relative;
+	height: 250px;
+	width: 1000px;
+	border-radius: 5px;
+	background: #262626;
+	color: #eee;
+	opacity: 0.6;
+	top: 30%;
+	left: 15%;
+}
+
+.cringe1 {
+	position: relative;
+	font-size: 40px;
+	letter-spacing: 5px;
+	font-weight: 10px;
+	left: 23%;
+	top: 70px;
 }
 
 .video {
