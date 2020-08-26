@@ -89,7 +89,7 @@ body {
 }
 
 .familyQuote {
-	background: -webkit-radial-gradient(center, ellipse cover, #4e4343 1%,#1a1a1a   100%);
+	background: -webkit-radial-gradient(center, ellipse cover, #4e4343 1%, #1a1a1a 100%);
 	height: 870px;
 	overflow: hidden;
 	bottom: 0;
@@ -103,7 +103,7 @@ body {
 }
 
 .familyMsg {
-	background-image: url('media/1.jpg');
+	background-image: url('media/family.jpeg');
 	-webkit-background-size: contain;
 	height: 870px;
 	overflow: hidden;
@@ -115,7 +115,6 @@ body {
 	background-size: cover;
 	overflow: hidden;
 }
-
 
 .btstheme {
 	background-image: url('media/band.jpg');
@@ -142,7 +141,7 @@ body {
 }
 
 .parallax {
-	background: #262626;
+	background-image: url("media/final.jpeg");
 	height: 860px;
 	overflow: hidden;
 	bottom: 0;
@@ -154,7 +153,6 @@ body {
 	background-size: cover;
 	top: 0;
 }
-
 
 .cringyPadding {
 	height: 20px;
@@ -179,31 +177,6 @@ body {
 	right: 0;
 	display: block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 481px) {
 	.parallax1 {
@@ -230,8 +203,7 @@ body {
 		top: 35%;
 		opacity: 1;
 	}
-	
-	
+
 	.btstheme {
 		background-image: url('media/band.jpg');
 		background-size: cover;
