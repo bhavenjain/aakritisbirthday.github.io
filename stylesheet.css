@@ -20,17 +20,25 @@ body {
 	opacity: 0.7;
 }
 
-.cringyPadding {
-	height: 200px;
+.cringe {
+	position: absolute;
+	font-size: 40px;
+	letter-spacing: 5px;
+	font-weight: 10px;
+	left: 23%;
+	top: 2070px;
+}
+
+.cri {
+	position: absolute;
+	height: 250px;
 	width: 1000px;
-	float: center;
-	padding: 30px;
+	border-radius: 5px;
 	background: #262626;
 	color: #eee;
 	opacity: 0.6;
-	top: 2810px;
-	left: 13%;
-	position: absolute;
+	top: 2000px;
+	left: 15%;
 }
 
 .line {
@@ -40,7 +48,7 @@ body {
 	color: #f0f3f4;
 	position: relative;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	left: 23%;
+	left: 35%;
 	top: 30%;
 	opacity: 0.9;
 }
