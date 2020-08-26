@@ -211,7 +211,7 @@ body {
 }
 
 .parallax {
-	background-image: url("media/final.jpeg");
+	background-image: url("media/final.jpg");
 	height: 860px;
 	overflow: hidden;
 	bottom: 0;
