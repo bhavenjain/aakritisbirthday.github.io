@@ -68,8 +68,23 @@ body {
 	overflow: hidden;
 }
 
+.cloud {
+	background-image: url('media/cloud.jpg');
+	-webkit-background-size: contain;
+	height: 870px;
+	overflow: hidden;
+	bottom: 100%;
+	width: 100%;
+	padding: 0px;
+	background-attachment: fixed;
+	background-position: absolute;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+
 .paraForEyes {
-	background-image: url('media/col.jpeg');
+	background-image: url('media/achi.jpeg');
 	background-size: cover;
 	height: 870px;
 	overflow: hidden;
@@ -171,8 +186,19 @@ body {
 	font-size: 40px;
 	letter-spacing: 5px;
 	font-weight: 10px;
-	left: 23%;
+	left: 27%;
 	top: 70px;
+}
+
+.changes {
+	position: relative;
+	font-size: 30px;
+	letter-spacing: 5px;
+	font-weight: 10px;
+	left: 17%;
+	top: 70px;
+	margin-right: 34%;
+	text-align: center;
 }
 
 .video {
