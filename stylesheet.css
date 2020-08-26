@@ -43,13 +43,13 @@ body {
 
 .line {
 	letter-spacing: 3px;
-	font-size: 2.4vw;
+	font-size: 40px;
 	font-weight: 1.2vw;
-	color: #f0f3f4;
+	color: #eee;
 	position: relative;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	left: 35%;
-	top: 30%;
+	top: 27%;
 	opacity: 0.9;
 }
 
