@@ -122,7 +122,7 @@ body {
 }
 
 .familyQuote {
-	background: -webkit-radial-gradient(center, ellipse cover, #2c5364 1%, #0f2027 100%);
+	background: -webkit-radial-gradient(center, ellipse cover, #2c5364 1%, #0f2027 77%);
 	height: 870px;
 	overflow: hidden;
 	bottom: 0;
