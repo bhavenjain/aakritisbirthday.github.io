@@ -250,6 +250,34 @@ body {
 	position: relative;
 }
 
+.videobg {
+	background-color: #262626;
+	height: 870px;
+	overflow: hidden;
+	width: 100%;
+	padding: 0px;
+	background-attachment: fixed;
+	background-position: absolute;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.endVideo {
+	
+	height: 800px;
+	overflow: hidden;
+	width: 100%;
+	top: 35px;
+	position: relative;
+	padding: 0px;
+	overflow: hidden;
+}
+
+
+
+
+
 #myVideo {
 	width: 100%;
 	height: 110%;
