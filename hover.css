@@ -61,9 +61,10 @@
 	width: 90%;
 	height: 100%;
 	top: 50%;
+	text-align: center;
 	left: 50%;
 	letter-spacing: 2px;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-family: cursive;
 	line-height: 190%;
 	margin: 150px auto;
 	transform: translate(-50%, -50%);
