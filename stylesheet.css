@@ -9,11 +9,12 @@ body {
 
 .quote {
 	position: absolute;
-	letter-spacing: 2px;
-	font-size: 2vw;
-	font-weight: 1vw;
+	letter-spacing: 1px;
+	font-size: 29px;
+	font-weight: 10px;
 	top: 20%;
 	right: 08%;
+	font-family: cursive;
 	margin-left: 6%;
 	text-align: center;
 	margin-right: 64%;
