@@ -7,21 +7,6 @@ body {
 	transition: .5s;
 }
 
-.quote {
-	position: absolute;
-	letter-spacing: 1px;
-	top: 17%;
-	right: 08%;
-	font-size: 35px;
-	font-weight: 10px;
-	margin-left: 6%;
-	text-align: center;
-	margin-right: 64%;
-	opacity: 1;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	font-style: italic;
-}
-
 .cri {
 	position: absolute;
 	height: 250px;
@@ -33,6 +18,22 @@ body {
 	top: 2000px;
 	left: 15%;
 }
+
+.quote {
+	position: absolute;
+	letter-spacing: 1px;
+	font-size: 35px;
+	font-weight: 10px;
+	top: 17%;
+	right: 08%;
+	margin-left: 6%;
+	text-align: center;
+	margin-right: 64%;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-style: italic;
+	opacity: 1;
+}
+
 
 .line {
 	letter-spacing: 3px;
