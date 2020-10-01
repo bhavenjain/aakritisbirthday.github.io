@@ -22,15 +22,6 @@ body {
 	opacity: 1;
 }
 
-.cringe {
-	position: absolute;
-	font-size: 40px;
-	letter-spacing: 5px;
-	font-weight: 10px;
-	left: 23%;
-	top: 2070px;
-}
-
 .cri {
 	position: absolute;
 	height: 250px;
@@ -42,6 +33,17 @@ body {
 	top: 2000px;
 	left: 15%;
 }
+
+
+.cringe {
+	position: absolute;
+	font-size: 40px;
+	letter-spacing: 5px;
+	font-weight: 10px;
+	left: 23%;
+	top: 2070px;
+}
+
 
 .line {
 	letter-spacing: 3px;
@@ -138,19 +140,7 @@ body {
 	top: 0;
 }
 
-.familyMsg {
-	background-image: url('media/family.jpeg');
-	-webkit-background-size: contain;
-	height: 870px;
-	overflow: hidden;
-	width: 100%;
-	padding: 0px;
-	background-attachment: fixed;
-	background-position: absolute;
-	background-repeat: no-repeat;
-	background-size: cover;
-	overflow: hidden;
-}
+
 
 .btstheme {
 	background-image: url('media/band.jpg');
@@ -165,6 +155,20 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	top: 0;
+}
+
+.familyMsg {
+	background-image: url('media/family.jpeg');
+	-webkit-background-size: contain;
+	height: 870px;
+	overflow: hidden;
+	width: 100%;
+	padding: 0px;
+	background-attachment: fixed;
+	background-position: absolute;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
 }
 
 .photos {
