@@ -21,16 +21,6 @@ body {
 	margin-right: 64%;
 	opacity: 1;
 }
-.quotePadding {
-	height: 870px;
-	width: 35%;
-	background: #262626;
-	opacity: 0.6;
-	position: absolute;
-	top: 0;
-	margin: 0 auto;
-	left: 0;
-}
 
 .cringe {
 	position: absolute;
@@ -79,7 +69,16 @@ body {
 	background-size: cover;
 	overflow: hidden;
 }
-
+.quotePadding {
+	height: 870px;
+	width: 35%;
+	background: #262626;
+	opacity: 0.6;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0 auto;
+}
 .cloud {
 	background-image: url('media/cloud.jpg');
 	-webkit-background-size: contain;
@@ -88,6 +87,20 @@ body {
 	bottom: 100%;
 	width: 100%;
 	padding: 0px;
+	background-attachment: fixed;
+	background-position: absolute;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+
+
+.card1 {
+	height: 870px;
+	overflow: hidden;
+	width: 0100%;
+	padding: 0px;
+	border: none;
 	background-attachment: fixed;
 	background-position: absolute;
 	background-repeat: no-repeat;
@@ -108,19 +121,6 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	top: 0;
-}
-
-.card1 {
-	height: 870px;
-	overflow: hidden;
-	width: 0100%;
-	padding: 0px;
-	border: none;
-	background-attachment: fixed;
-	background-position: absolute;
-	background-repeat: no-repeat;
-	background-size: cover;
-	overflow: hidden;
 }
 
 .familyQuote {
